@@ -1,21 +1,21 @@
 
 .bg-hero.main {
-    background-image: url('../img/tennis-court-oath.jpg');
+    background-image: url('../img/3.png');
     background-position-x: center;
 }
 
-.bg-hero.causes {
-    background-image: url('../img/estates-general.jpg');
+.bg-hero.intro {
+    background-image: url('../img/2.jpg');
     background-position: center center;
 }
 
-.bg-hero.timeline {
-    background-image: url('../img/louis-xvi-execution.jpg');
+.bg-hero.character {
+    background-image: url('../img/1.jpg');
     background-position: center center;
 }
 
-.bg-hero.impacts {
-    background-image: url('../img/french-revolution-delacroix.jpg');
+.bg-hero.lines {
+    background-image: url('../img/2.jfif');
     background-position: center center;
 }
 
