@@ -5,17 +5,17 @@
 }
 
 .bg-hero.intro {
-    background-image: url('../img/6.jfif');
-    background-position: center center;
-}
-
-.bg-hero.character {
     background-image: url('../img/1.jpg');
     background-position: center center;
 }
 
+.bg-hero.character {
+    background-image: url('../img/7.jfif');
+    background-position: center center;
+}
+
 .bg-hero.lines {
-    background-image: url('../img/5.jfif');
+    background-image: url('../img/8.jfif');
     background-position: center center;
 }
 
