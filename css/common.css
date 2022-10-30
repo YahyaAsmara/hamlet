@@ -27,6 +27,10 @@ a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+div a {
+    color:blue;
+}
+
 .nav {
     display: flex;
     align-items: center;
