@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-  <head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>KeyShotVR</title>
-    <style type="text/css">
-      body { -ms-touch-action: none; }
-    </style>
+    <title>Yorick</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        const scripts = [];
+        const styles = ['css/common.css', 'css/content.css'];
+    </script>
+    <script src="js/load.js"></script>
+
     <script type="text/javascript" src="HamletSkull/files/KeyShotVR.js"></script>
     <script type="text/javascript">
       var keyshotVR;
@@ -45,8 +52,19 @@
 
       window.onload = initKeyShotVR;
     </script>
-  </head>
-  <body oncontextmenu="return false;">
+</head>
+<body oncontextmenu="return false;">
+    <div class="nav" data-include="nav"></div>
+    <h1>Yorick</h1>
     <div id="KeyShotVR"></div>
-  </body>
+    <p>&nbsp</p>
+    <h2>Why Yorick is so Important</h2>
+    <p>&nbsp</p>
+    <p>
+      <i>
+        "...Alas, poor<br>Yorick! I knew him, Horatio-a fellow of infinite<br>jest, of many excellent fancy. He hath bore me on his<br>back a thousand times, and now how abhorred in<br>my imagination it is!"
+      </i>
+    </p>
+    <p>Hamlet in Act 1 Scene 1 Lines 190 - 194</p>
+</body>
 </html>

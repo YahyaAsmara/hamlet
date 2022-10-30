@@ -85,3 +85,9 @@ section .content img.smaller {
     padding: 0 25px;
     white-space: pre-wrap;
 }
+
+#KeyShotVR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
