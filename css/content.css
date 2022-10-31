@@ -88,5 +88,5 @@ section .content img.smaller {
 
 #KeyShotVR {
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
